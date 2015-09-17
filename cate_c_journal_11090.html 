@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title> U WUT M8 </title>
+<meta charset="utf-8">
+<link href="cate_c_layout.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+		<header>
+			<h1> u wut m8 <h1>
+		</header>
+		<nav>
+	<table>
+          <tr>
+		<td><a href="history.html">history </a></td>
+		<td><a href="hobbies.html">hobbies</a></td>
+		<td><a href="future.html">future</a></td>
+	 </tr>
+	</table>
+	</nav>
+		<section class="main">
+		<h2> my scheduel  </H2>
+		<article>
+		<h3>  <h3>
+		<p>  </p>
+	<ol>
+		<li>prin/a/av/comm: movies and stuff </li>
+		<li>Alegebra 1: math and stuff </li>
+		<li>i forgot the name : maps and talking </li>
+		<li>Art: Art </li>
+		<li>this class: web design </li>
+		<li>spanish: we speak spanish </li>
+		<li>physics 1: we drop stuff </li>
+	</ol>
+	</article>
+	</section>
+		<aside>  </aside>
+	<footer>
+		<td><a href="index.html">schedule</a></td>
+		<td><a href="hobbies.html">hobbies</a></td>
+		<td><a href="future.html">future</a></td>
+	</ul>
+	</footer>
+	</div>
+</body>
+</html>
