@@ -1,0 +1,96 @@
+body {
+        background-color: #ffffff;
+        width: 100%;
+}
+
+.container {
+        height: 100%;
+        margin: auto;
+        width: 100%;
+}
+
+nav {
+       
+}
+
+.nav {
+        background-color: #ffffff;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+}
+
+.header {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: -1;
+}
+
+.name {
+        position: fixed;
+        top: 5px;
+        left: 30px;
+}
+
+.ducks {
+        position: fixed;
+        top: 30px;
+        left: 300px;
+}
+
+.gallery {
+        position: fixed;
+        top: 30px;
+        left: 450px;
+}
+
+.logo {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+}
+
+.g1 {
+        position: absolute;
+        top: 800px;
+        left: 100px;
+}
+
+.g2 {
+        position: absolute;
+        top: 800px;
+        right: 630px;
+}
+
+.g3 {
+        position: absolute;
+        top: 800px;
+        right: 100px;
+}
+
+a:link {
+        text-decoration: none;
+        color: gray;
+}
+
+a:visited {
+        color: gray;
+}
+
+a:hover {
+        color: #456fbd;
+}
+
+footer {
+        font-family: Arial;
+        font-size: 25px;
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 1250px;
+        text-align: center;
+}
+

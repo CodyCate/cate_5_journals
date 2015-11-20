@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<link href="master.css" rel="stylesheet">
+<a href="cate_5_masterz.css">
+<meta charset="UTF-8">
+<title> steam </title>
+<style>
+body {
+    background-image: url("kid.jpeg");
+    background-repeat: repeat-x;
+}
+<section class="middle">
+<imh src=""
+alt=" -"
+style="width:304pc;">
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<center
+<h1> what is steam? </h1>
+</center>
+</header>
+<nav>
+<table>
+<tr>
+<td><a href="cate_5_1002.html">home</a></td>
+<td><a href="cate_5_1003.html">profit?</a></td>
+<td><a href="cate_5_1005.html">skins?</a></td>
+<td><a href="cate_5_1004.html">steam?</a></td>
+</tr>
+</table>
+</nav>
+<section class="main">
+<p>so in the other page titled 'CSGO profit' i refered to something called 'steam' well steam is a gameing platform where you can purchase games and other items games like ingame items. such as skins in csgo and other items in other games its pretty awesome.
+</body>
+</html>
+

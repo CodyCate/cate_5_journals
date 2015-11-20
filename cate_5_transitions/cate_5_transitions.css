@@ -1,0 +1,153 @@
+.first {
+    background-color:yellow;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+
+.first: hover {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+
+.colorchange {
+    background-color:orange;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+.colorchange:hover {
+    background-color:green;
+    transition-duration: 2s;
+}
+
+.sizechange {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+
+.sizechange:hover {
+    background-color: red;
+    height: 200x;
+    width: 2000px;
+    transition-duration: 3s;
+}
+
+.locchange {
+    background-color:blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 0px;
+    transition-duration: 2s;
+}
+
+
+.locchange:hover {
+    left: 200px;
+    transition-duration: 2s;
+}
+
+.opchange {
+    background-color: chartreuse;
+height: 50px;
+    width: 50px;
+    opacity: 100px;
+    transition-duration: 2s;
+}
+
+.opchange:hover {
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.rotatechange {
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+
+.rotatechange:hover {
+    transform: rotate(180deg);
+    transition-duration: 2s;
+}
+
+.view {
+    background-color: hotpink;
+    height: 50px;
+    width: 300px;
+    perspective: 160px;
+}
+
+.rotate3Dchange {
+    background-color: hotpink;
+    height: 50px;
+    width: 300px;
+    transform: rotateY(0deg);
+    transition-duration: 2s;
+}
+
+.rotate3Dchange:hover {
+    transform: rotateY(-360deg);
+    transition-duration: 2s;
+}
+.parent {
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+}
+.child {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition-duration: 2s;
+}
+.parent:hover > .child {
+    top: 10px;
+    left: 10px;
+    transition-duration: 2s;
+}
+.brother {
+    background-color: lightblue;    
+    height: 50px;
+    width: 50px;
+}
+.sister {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    transition-duration: 2s;
+}
+.brother:hover + .sister {
+    margin-left: 20px;
+    transition-duration: 2s;
+}
+.last {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+}
+.last:hover +.first {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    transition-duration: 2s;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
