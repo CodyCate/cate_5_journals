@@ -1,0 +1,55 @@
+body {
+    background-color: #7727FF;
+    margin: 0px;
+    color: #E76B00;
+}
+
+container {
+   background-color: yellow;
+   height: 850px;
+   margin-left; auto;
+   margin-right: auto;
+   width: 700px;
+}
+header { 
+   background-color: #0DE8D1;
+   height: 100px;
+   width: 700px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 72px;
+  margin: 0px;
+  text-align; center;
+
+}
+
+nav {
+    background-color: #EE75FF;
+    height: 50px:
+    width: 700px;
+
+}
+
+
+td {
+    color: #C80071;
+    font-family: sans-serif;
+    font-size: 35px;
+
+}
+
+table {
+   width: 700px;
+}
+
+a {
+ color: green;
+ text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+

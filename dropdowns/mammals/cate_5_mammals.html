@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taxidermy is best Taxidermy</title>
+        <meta name="keywords" content="D22 is awesome; ninja">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="cate_5_dropdowns.css">
+        
+        <!-- dd menu -->
+        <script type="text/javascript">
+            <!--
+                var timeout = 500;
+            var closetimer = 0;
+            var ddmenuitem = 0;
+            
+            // open hidden layer
+            function mopen(id)
+            {
+                // cancel closetimer
+                mcancelclosetime();
+                
+                // close old layer
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+                
+                // get new layer and show it
+                ddmenuitem = document.getElementById(id);
+                ddmenuitem.style.visibility = 'visible' ;
+                
+            }
+            // close showed layer 
+            function mclose()
+            {
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+            }
+            
+            // go close timer
+            function mclosetime()
+            {
+                closetimer = window.setTimeout(mclose, timeout);
+            }
+            
+            // cancel close timer
+            function mcancelclosetime()
+            {
+                if(closetime)
+                {
+                    window.clearTimeout(closetimer);
+                    closetimer = null;
+                }
+            }
+            
+            // close layer when click-out
+            document.onclick = mclose;
+            // -->
+        </script>
+        
+    </head>
+    <body>
+         
+                <img src="./wolf.jpeg" alt="Mountain View" style="width:197px;height:300px;">
+
+        <h1>DropDown Menu</h1>
+        
+        <p>This menu can be located anywhere on a page:</p>
+        
+        <ul id="sddm">
+            <li><a href="cate_5_home.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">home</a>
+                <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="./home/cate_5_contactus.html">contact us</a>
+                <a href="./home/cate_5_checkout.html">check out</a>
+                <a href="./home/cate_5_facebook.html">facebook</a>
+                <a href="./home/cate_5_instagram.html">instagram</a>
+                <a href="./home/cate_5_twitter.html">twitter</a>
+            </div>
+            </li>
+            <li><a href="./mammals/cate_5_mammals.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">mammals </a>
+                <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="./mammals/cate_5_largegame.html">large game</a>
+                    <a href="./mammals/cate_5_smallgame.html">small game</a>
+                    <a href="./mammals/cate_5_exoticgame.html">exotic game</a>
+                    <a href="./mammals/cate_5_crapgame.html">crap game</a>
+                </div>
+            </li>
+            <li><a href="./fish/cate_5_fishs.html" onmouseover="mopen('m3')" onmouseout="mclosetime()"> aquatic animals</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="./fish/cate_5_smallfish.html">small aquatic animals</a>
+                    <a href="./fish/cate_5_mediumfish.html">medium aquatic animals</a>
+                    <a href="./fish/cate_5_largefish.html">large aquatic animals</a>
+                    <a href="./fish/cate_5_exoticfish.html">exotic aquatic animals</a>
+                </div>
+            </li>
+             <li><a href="./pets/cate_5_pets.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">pets</a>
+                <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="./pets/cate_5_dogs.html">dogs</a>
+                    <a href="./pets/cate_5_cats.html">cats</a>
+                    <a href="./pets/cate_5_lizards.html">lizards</a>
+                    <a href="./pets/cate_5_bird.html">birds</a>
+                    <a href="./pets/cate_5_hamster.html">hamsters/gerbals</a>
+                </div>
+            </li>
+             <li><a href="./humans/cate_5_humans.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">humas</a>
+                <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="./humans/cate_5_grandpa.html">grandpa</a>
+                    <a href="./humans/cate_5_grandma.html">grandma</a>
+                    <a href="./humans/cate_5_spouse.html">spouse</a>
+                    <a href="./humans/cate_5_enemies.html">enemies</a>
+               </div>
+            </li>
+        </ul>
+        <div style="clear:both"></div>
+        
+        <div style="clear:both"></div>
+        
+    </body>
+</html>
+                
+                
+                
+        
+        
+    
+    
+        
+    
+    

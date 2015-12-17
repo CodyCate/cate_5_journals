@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <title>drop down jazz</title>
+    <meta name="keywords" content="d22 is awesome;ninja">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="cate_5_dropdowns.css">
+    
+    <!-- dd menu -->
+    <script type="text/javascript">
+    <!--
+        var timeout   =500;
+        var closetimer  =0;
+        var ddmenuitem  =0;
+        
+        // open hidden layer
+        function mopen(id)
+        }
+         // cancel close timer 
+         mcancelclosetime();
+        
+        // close old layer 
+        if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+        
+        // get new layer and show it 
+        ddmenuitem = document .getElementById(id);
+        ddmenuitem.style.visibility = 'visible';
+        
+        }
+        // close showed layer 
+        function mclose()
+        {
+            if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+        }
+        
+        // go close timer 
+        function mclose()
+        {
+            closetimer = window.setTimeout (mclose, timeout);
+        }
+        
+        // cancel close timer 
+        function mcancelclosetime()
+        {
+            if(closetimer)
+            {
+            window.clearTimeout(closetimer);
+                closetimer = null;
+            }
+        }
+        
+        // close layer when click-out 
+        document.onclick = mclose;
+        // -->
+    </script>
+    
+    </head>
+    
+    <body>
+     
+    <h1>DropDown menu</h1>
+    
+        <p>This menu can be anywhere on the page</p>
+    <ul id='sddm'>
+        <li><a href='#' onmouseover="mopen('m1')"onmouseout="mclosetime()">home</a>
+            <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime">
+            <a href="#">HTML DropDown</a>
+            <a href="#">DHTML DropDown menu</a>
+            <a href="#">Javascript DropDown</a>
+            <a href="#">DropDown menu</a>
+            <a href="#">CSS DropDown</a>
+            </div>
+        </li>
+        <li><a href="#" onmouseover="mopen( 'm1')" onmouseout="closetime()">home</a>
+           <div id="m1" onmouseover="mcancelclosetime(10s)" onmouseout="mclosetime()">
+            <a href="#">Dr. DropDown</a>
+            <a href="#">some menu</a>
+            <a href="#">ninja dropdown</a>
+            <a href="#">another dropdown</a>
+            </div>
+        </li>
+        <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">order</a>
+            <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="#">visa credit card</a>
+                <a href="#">paypal</a>
+                <a href="#">bitcoin</a>
+                <a href="#">10coin</a>
+            </div>
+        </li>
+        <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">help</a>
+            <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+            <a href="#">download help.pdf</a>
+            <a href="#">read online</a>
+            </div>
+        </li>
+        <li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">help</a>
+            <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+            <a href="#">submit request form</a>
+            <a href="#">E-mail</a>
+             <a href="#">call center</a>
+            </div>
+        </li>
+        </ul>
+        
+        <div style="clear:both"></div>
+     
+        <div style="clear:both"></div>
+        
+    </body>
+</html>
+        
+        

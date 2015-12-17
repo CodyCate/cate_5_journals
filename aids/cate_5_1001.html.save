@@ -1,0 +1,23 @@
+<!doctype>
+<html>
+<head>
+<style>
+body {
+    background-image: url("cody.png");
+    background-repeat: repeat;
+}
+</style>
+<meta charset="UTF-8">
+   <title>Image notes</title>
+</head>
+<body>
+<h1></h1>
+<section>
+<img src="cody.png"
+alt="god tier name - cody"
+style="width:304px;height:228px;"
+</section>
+<aside>
+<a href="my_page.png"> <img src="my_page.png"
+alt="my page"/>
+</body>

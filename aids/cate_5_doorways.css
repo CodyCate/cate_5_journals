@@ -1,0 +1,93 @@
+
+
+.hole1 {
+    border-radius: 200px;
+  background-color:orchid;
+    top: 30px;
+    width: 155px;
+    height: 280px;
+    margin-top: 240px;
+    margin-left: 490px;
+    transition-duration: 2s;
+}
+.hole1:hover {
+    transform: rotate(480deg);
+    transition-duration: 2s;  
+    background-color: blue;
+}
+
+.enterpill {
+     display: block;
+      border-radius: 20px;
+  background-color:white;
+    top: 30px;
+    width: 15px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    right: 10px;
+    
+}
+.hole2 {
+    position: absolute;
+    border-radius: 200px;
+     top: 30px;
+    left: 400px;
+    background-color: skyblue;
+    width: 155px;
+    height: 280px;
+    margin-top: 240px;
+    margin-left: 690px;
+    transition-duration: 2s;
+}
+
+.hole2:hover {
+    transform: rotate(500deg);
+    transition-duration: 2s;  
+    background-color: darkviolet
+}
+.enterpill2 {
+    display: block;
+    position: absolute;
+      border-radius: 20px;
+  background-color:white;
+    top: 30px;
+    width: 15px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    right: 10px;
+    
+}
+    
+.hole3 {
+    position: absolute;
+    border-radius: 200px;
+    top 30px;
+   left: 90px;
+    bottom: 420px;
+    background-color: forestgreen;
+    width: 155px;
+    height: 280px;
+    margin-top: 240px;
+    margin-left: 690px;
+    transition-duration: 2s;
+}
+
+.enetrpill3 {
+      border-radius: 200px;
+  background-color:white;
+    top: 30px;
+    width: 155px;
+    height: 280px;
+    margin-top: 240px;
+    margin-left: 490px;
+    right: 500px;
+}
+
+
+.hole3:hover {
+    transform: rotate(480deg);
+    transition-duration: 2s;  
+    background-color: deepskyblue;
+}
