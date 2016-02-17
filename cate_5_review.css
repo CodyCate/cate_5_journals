@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+section {
+    margin: 0;
+    top: 100px;
+    height: 400px;
+    position: fixed;
+    background-color: aqua;
+} 
+
+
+
+header {
+    color: aliceblue;
+    font: 100px arial;
+    text-decoration-color: aliceblue;
+    text-align: center;
+    width: 1689px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    
+}
+
+article {
+    position: absolute;
+    height: 500px;
+    width: 1679px;
+margin: 0;
+    position: fixed;
+ background-color: yellow;   
+ top: 500px;   
+}
