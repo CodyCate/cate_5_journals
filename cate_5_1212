@@ -1,0 +1,7 @@
+with the char [] [] we can now move in the 2d space
+this code adds a usable land
+SE would move D to the bottom left
+this codes for the borders of the landscape so that the D dosent go off the landscape
+to repeat the code so it codes for several lines of the landscape
+because they code for the x and y so the -2 and -1 are starting points.
+the println is diffrent as it prints notjust on its line but upwards as well.
