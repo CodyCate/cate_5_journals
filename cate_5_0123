@@ -1,0 +1,2 @@
+The reason this game has the static Trap [] minefield before the main is so that the whole program can call upon it. If it does not have it befor main some parts can not be called upon.
+You can move the enemy with an array and a method similar to the heros method.
